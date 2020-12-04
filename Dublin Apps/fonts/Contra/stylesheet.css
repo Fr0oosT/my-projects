@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Contra';
+    src: url('Contra.woff2') format('woff2'),
+        url('Contra.woff') format('woff'),
+        url('Contra.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Contra';
+    src: url('Contra-Italic.woff2') format('woff2'),
+        url('Contra-Italic.woff') format('woff'),
+        url('Contra-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+

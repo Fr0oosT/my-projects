@@ -1,0 +1,496 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*===============================HEADER===========================================================HEADER===========================================================HEADER============================*/
+header{
+	color: white;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 10px;
+}
+body{
+	background: linear-gradient(#0A1440, white, white);
+	background-repeat: no-repeat;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.nav{
+	font-family: 'Colaborate';
+}
+.nav a:hover{
+	background: white;
+	border: 1px solid black;
+	padding: 3px 5px;
+	border-radius: 5px;
+	color: purple;
+}
+a{
+	color: white;
+	text-decoration: none;
+	position: relative;
+	padding-right: 20px;
+}
+.logo img{
+	float: left;
+}
+.logo{
+	width: 250px;
+	font-family: 'ColaborateLight';
+	margin-right: 400px;
+}
+.logo p, .logo h1{
+	padding-left: 45px;
+}
+
+/*============================MAIN================================================================MAIN================================================================MAIN====================================*/
+main{
+	display: grid;
+	grid-template-columns:10px  400px 400px 400px;
+	grid-template-rows: 100px 400px 100px 200px 200px 200px 100px;
+/*	background-color: #e7e8ea;*/
+}
+main p{
+	font-family: 'Colaborate';
+}
+main h2{
+	font-family: 'ColaborateLight';
+}
+main h1{
+	font-family: 'ColaborateLight'
+}
+.head {
+	margin-top: 20px;
+    background-color: #dfe0e2;
+    grid-column: 2/5;
+    grid-row: 1;
+    border-radius: 10px 10px 0px 0px;
+}
+.head h1, .head p{
+	margin-left: 50px;
+	margin-top: 10px;
+}
+.head h1{
+	font-size: 26px;
+}
+.searchbar{
+	grid-column: 4;
+	grid-row: 1;
+	text-align: center;
+	margin-top: 50px;
+}
+.searchbar i{
+	position: absolute;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+.searchbar input{
+	border-radius: 30px;
+	width: 280px;
+	height: 30px;
+	padding-left: 40px;
+}
+
+.arrow_right{
+	grid-column: 4;
+	grid-row: 2;
+	color: white;
+	text-align: right;
+	border-radius: 50%;
+	margin-top: 200px;
+	margin-right: 60px;
+}
+.arrow_right i{
+	border: 1px solid #333344;
+	border-radius: 50%;
+	padding: 10px;
+	background: #333344;
+}
+.arrow_left{
+	grid-column: 2;
+	grid-row: 2;
+	color: white;
+	margin-top: 200px;
+	border-radius: 50%;
+	margin-left: 60px;
+}
+.arrow_left i{
+	border:  1px solid #333344;
+	border-radius: 50%;
+	padding: 10px;
+	background: #333344;
+}
+.ipad_left{
+	grid-column: 2;
+	grid-row: 2;
+	background: #e7e8ea; 
+	padding-left: 120px;	
+	padding-top: 30px; 
+}
+.ipad_left a{
+	margin-top: 20px;
+}
+.ipad_center{
+	grid-column: 3;
+	grid-row: 2;
+	background: #e7e8ea;
+	padding-left: 85px;
+	padding-top: 30px; 
+}
+.ipad_center a{
+	margin-top: 20px;
+}
+.ipad_right{
+	grid-column: 4;
+	grid-row: 2;
+	background: #e7e8ea;
+	padding-top: 30px; 
+	padding-right: 90px;
+	padding-left: 50px;
+}
+.ipad_right a{
+	margin-top: 20px;
+}
+main a{
+	display: inline-block;
+	border-spacing: 35px 15px;
+	padding: 9px 35px;
+	border-radius: 5px;
+	background-color:  #1e4f98;
+	font-family: 'Colaborate';
+}
+main p{
+	color: #5f7390;
+}
+/*.html{
+	background: red;
+}*/
+.ipad a{
+	background-color: #3e3e50;
+	padding: 6px 20px;
+	margin-left: 18px;
+	margin-top: 10px;
+}
+.tags{
+	grid-column: 2/5;
+	grid-row: 3;
+	background: #e7e8ea;
+	padding-top: 40px;
+	border-bottom: 1px solid lightgrey;
+	padding-top: 66px;
+	padding-left: 80px;
+}
+.Most_popular{
+	background: #434356;
+}
+.recent{
+	background: lightgrey;
+}
+.ipad{
+	background: #e7e8ea;
+	padding-left: 80px;
+	padding-top: 50px;
+
+}
+.ipad h2, .ipad p{
+	margin-left: 130px;
+}
+.iphone_apps1{
+	grid-column: 2;
+	grid-row: 4;
+	padding-left: 120px;
+}
+.iphone_apps1 img{
+	float: left;
+}
+.iphone_apps2{
+	grid-column: 3;
+	grid-row: 4;
+
+}
+.iphone_apps2 img{
+	float: left;
+}
+.iphone_apps3{
+	grid-column: 4;
+	grid-row: 4;
+	padding-top: 50px;
+	background: #e7e8ea;
+	padding-left: 60px;
+}
+.iphone_apps3 img{
+	float: left;
+}
+.iphone_apps3 a{
+	background-color: #3e3e50;
+	padding: 6px 20px;
+	margin-left: 18px;
+	margin-top: 10px;
+}
+.iphone_apps4{	
+	grid-column: 2;
+	grid-row: 5;
+	padding-left: 120px;
+}
+.iphone_apps4 img{
+	float: left;
+}
+.iphone_apps5{
+	grid-column: 3;
+	grid-row: 5;
+}
+.iphone_apps5 img{
+	float: left;
+}
+.iphone_apps6{
+	grid-column: 4;
+	grid-row: 5;
+	padding-top: 50px;
+	background: #e7e8ea;
+	padding-left: 60px;
+}
+.iphone_apps6 img{
+	float: left;
+}
+.iphone_apps6 a{
+	background-color: #3e3e50;
+	padding: 6px 20px;
+	margin-left: 18px;
+	margin-top: 10px;
+}
+.iphone_apps7{
+	grid-column: 2;
+	grid-row: 6;
+	padding-left: 120px;
+	border-radius: 0px 0px 0px 10px;
+}
+.iphone_apps7 img{
+	float: left;
+}
+.iphone_apps8{
+	grid-column: 3;
+	grid-row: 6;
+}
+.iphone_apps8 img{
+	float: left;
+}
+.iphone_apps9{
+	grid-column: 4;
+	grid-row: 6;
+	padding-top: 50px;
+	background: #e7e8ea;
+	padding-left: 60px;
+	border-radius: 0px 0px 10px 0px;
+}
+.iphone_apps9 img{
+	float: left;
+}
+.iphone_apps9 a{
+	background-color: #3e3e50;
+	padding: 6px 20px;
+	margin-left: 18px;
+	margin-top: 10px;
+}
+/*=================================================FOOTER==========================================================FOOTER===================================================FOOTER==================================*/
+
+footer{
+	width: 1200px;
+	margin: 0 auto;
+}
+.wrapper{
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(88,88,117,1)), color-stop(3%, rgba(88,88,117,1)),
+ color-stop(7%, rgba(88,88,117,1)), color-stop(9%, rgba(88,88,117,1)), color-stop(22%, rgba(77,77,105,1)), color-stop(63%, rgba(54,54,72,1)), color-stop(100%, rgba(54,54,72,1))); /* safari4+,chrome */	color: white;
+	padding-top: 30px;
+}
+.header h1{
+	color: #505050;
+}
+.lorem{
+	padding-bottom: 30px;
+	border-bottom: 1px solid white;
+	margin: 0 auto;
+	font-family: 'Colaborate'
+}
+.lorem i{
+	float: left;
+	color: #353546;
+	border-radius: 50%;
+	background:#e4e4e7;
+	padding:10px;
+	font-size: 48px;
+	margin-right: 40px;
+}
+.author{
+	display: block;
+	margin-left: 900px;
+	font-family: 'Contra';
+}
+.inform{
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 10px;
+	width: 1200px;
+}
+.inform a{
+	color: black;
+	background: white;
+	border-radius: 5px;
+	padding: 6px;
+}
+.Newsletter{
+	text-align: left;
+	font-family: 'ColaborateLight'	
+}
+.Newsletter input{
+	margin-top: 10px;
+	border-radius: 5px;
+	height: 25px;
+	width: 212px;
+	background: #242439;
+	border-color: #4d4d5d;
+}
+.Contact_form{
+	align-items: flex-end;
+	margin-left: 350px;
+	font-family: 'ColaborateLight'
+}
+.Contact_form ul li{
+	list-style-type: none;
+	line-height: 38px;
+	margin-right: 10px;
+}
+.Contact_form input{
+	border-radius: 5px;
+	height: 25px;
+	width: 212px;
+	background: #242439;
+	border-color: #4d4d5d;
+}
+.submit2{
+	margin-left: 350px;
+	margin-bottom: 100px;
+	font-family: 'Colaborate';
+	color: black;
+	background: white;
+	border-radius: 5px;
+	padding: 6px;
+}
+
+.large{
+	margin-top: 40px;
+	width: 190px;
+	height: 105px;
+	border-radius: 5px;
+	background: #242439;
+	border-color: #4d4d5d;
+}
+.icon{
+	display: inline-block;
+	font-size: 20px;
+	margin: 10px;
+	color: #6d6d84;
+	border-radius: 50%;
+	border: 1px solid #464659;
+	padding:10px;
+	background: #464659;
+}
+.design{
+	display: inline-block;
+	margin-left: 100px;
+	font-family: 'Colaborate'
+}
+/*=============================FONTS=======================================================================FONTS=======================================================================FONTS========================================*/
+/*===========================Colaborate font=============================*/
+}
+@font-face {
+    font-family: 'Colaborate';
+    src: url('../fonts/Colaborate/Colaborate-Bold.woff2') format('woff2'),
+        url('../fonts/Colaborate/Colaborate-Bold.woff') format('woff'),
+        url('../fonts/Colaborate/Colaborate-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Colaborate';
+    src: url('../fonts/Colaborate/Colaborate-Regular.woff2') format('woff2'),
+        url('../fonts/Colaborate/Colaborate-Regular.woff') format('woff'),
+        url('../fonts/Colaborate/Colaborate-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ColaborateLight';
+    src: url('../fonts/Colaborate/Colaborate-Light.woff2') format('woff2'),
+        url('../fonts/Colaborate/Colaborate-Light.woff') format('woff'),
+        url('../fonts/Colaborate/Colaborate-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Colaborate';
+    src: url('../fonts/Colaborate/Colaborate-Thin.woff2') format('woff2'),
+        url('../fonts/Colaborate/Colaborate-Thin.woff') format('woff'),
+        url('../fonts/Colaborate/Colaborate-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Colaborate';
+    src: url('../fonts/Colaborate/Colaborate-Medium.woff2') format('woff2'),
+        url('../fonts/Colaborate/Colaborate-Medium.woff') format('woff'),
+        url('../fonts/Colaborate/Colaborate-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/*=============================Contra font===============================*/
+@font-face {
+    font-family: 'Contra';
+    src: url('../fonts/Contra/Contra.woff2') format('woff2'),
+        url('../fonts/Contra/Contra.woff') format('woff'),
+        url('../fonts/Contra/Contra.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Contra';
+    src: url('../fonts/Contra/Contra-Italic.woff2') format('woff2'),
+        url('../fonts/Contra/Contra-Italic.woff') format('woff'),
+        url('../fonts/Contra/Contra-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/*========================ChunkFive font==================================*/
+@font-face {
+    font-family: 'ChunkFive';
+    src: url('../fonts/ChunkFive/ChunkFive-Regular.woff2') format('woff2'),
+        url('../fonts/ChunkFive/ChunkFive-Regular.woff') format('woff'),
+        url('../fonts/ChunkFive/ChunkFive-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ChunkFive Print';
+    src: url('../fonts/ChunkFive/ChunkFivePrint.woff2') format('woff2'),
+        url('../fonts/ChunkFive/ChunkFivePrint.woff') format('woff'),
+        url('../fonts/ChunkFive/ChunkFivePrint.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/*=========================================================================*/
+
+
+
+

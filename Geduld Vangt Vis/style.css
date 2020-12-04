@@ -1,0 +1,196 @@
+*{
+	margin: 0;
+	padding:0;
+}
+header{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+body {
+	font-family: "Open Sans";
+	font-family:Verdana, Geneva, sans-serif;
+}
+main{
+	display: grid;
+	grid-template-columns: 403px 400px 667px 403px;
+	grid-template-rows: 441px 130px 100px 350px 350px 350px 155px; 
+	margin:0 auto;
+	grid-row-gap: 55px;
+	grid-column-gap: 33px;
+	border-top: solid 1px #11619b;
+}
+.oktober10,.oktober1, .oktober26{
+	color: red;
+}
+main p{
+	font-size: 13px;
+	word-wrap: break-word;
+	line-height: 2em;
+}
+main h1{
+	color: #d43b47;
+}
+.textwinter, .textzandwiel, .textrabo{
+	color: grey;
+}
+.lees1, .lees2, .lees3{
+	font-size: 12px;
+	border: 2px solid black;
+	display: inline-block;
+	padding: 12px 24px;
+	letter-spacing: 1px;
+	font-weight: 700px;
+}
+header a{
+	text-decoration: none;
+	text-align: center;
+	color: #11619b;
+    font-size: 11px;
+    font-weight: 700;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-transform: uppercase;
+}
+.menu{
+	margin-left: 85px;
+}
+.head_img{
+	grid-row:1;
+	grid-column: 1/span 3;
+}
+.header_img{
+	grid-row:2;
+	grid-column: 1/ 4;
+	display: block;
+}
+.title{
+	grid-column: 2/4;
+	grid-row: 2;
+	text-align: center;
+	font-size: 24px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	padding-top: 30px;
+}
+.title h1{
+		color: white
+}
+.head{
+	grid-column: 2/4 ;
+	grid-row: 3;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid black;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	border-color: lightgrey;
+}
+.article1{
+	grid-column: 3;
+	grid-row: 4;
+}
+.article1_img{
+	grid-column:2;
+	grid-row: 4;
+	float: left;
+}
+.article2{
+	grid-column: 3;
+	grid-row: 5;
+}
+.article2_img{
+	grid-column: 2;
+	grid-row: 5;
+	float: left;
+}
+.article3{
+	grid-column: 3;
+	grid-row:6;
+}
+.article3_img{
+	grid-column: 2;
+	grid-row: 6;
+	float: left;
+}
+.oktober26{
+	margin-top: 29px;
+}
+.rabo{
+	margin-top: 34px;
+}
+.textrabo{
+	margin-top: 34px;
+	margin-bottom: 20px;
+}
+
+}
+.oktober10{
+	margin-top: 29px;
+}
+.winter{
+	margin-top: 34px;
+}
+.textwinter{
+	margin-top: 31px;
+}
+.lees2{
+	margin-top:29px;
+}
+.oktober1{
+	margin-top: 29px;
+}
+.zandwiel{
+	margin-top: 34px;
+}
+.textzandwiel{
+	margin-top: 31px;
+}
+.lees3{
+	margin-top: 29px;
+}
+footer li{
+	list-style: none;
+}
+.vis{
+	grid-column: 3;
+	grid-row:1;
+	margin-top: 50px;
+}
+.info{
+	grid-column: 2;
+	grid-row: 1;
+	margin-top: 50px;
+	line-height: 2em;
+	font-size: 13px;
+	color: white;
+}
+.facebook{
+	grid-column: 3;
+	grid-row: 1;
+	margin-top: 50px;
+	margin-left: 600px;
+}
+.info span{
+	color: #d43b47;
+}
+header{
+	width: 1062px;
+	margin-right: 400px;
+	margin-left: 400px;
+}
+footer {
+	height: 250px;
+	display: grid;
+	grid-template-columns: 403px 400px 667px 403px;
+	background-color: #005694;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0 
+}
